@@ -1,0 +1,39 @@
+/* ...existing code... */
+
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+
+body {
+    font-family: 'Paprika', cursive;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #ffcccb; /* Light red background */
+}
+
+header {
+    text-align: center;
+    background-color: #ff69b4; /* Hot pink */
+    color: #ffffe0; /* Light yellow */
+    padding: 1em 0;
+}
+
+.center-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center-content blockquote {
+    font-size: 2em;
+    color: #8a2be2; /* Blue violet */
+}
+
+.footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #ff69b4; /* Hot pink */
+    color: #ffffe0; /* Light yellow */
+}
