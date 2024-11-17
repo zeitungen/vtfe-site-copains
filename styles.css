@@ -9,6 +9,7 @@ body {
     min-height: 100vh;
     margin: 0;
     background-color: #ffcccb; /* Light red background */
+    padding-top: 60px; /* Adjust this value based on the header height */
 }
 
 header {
@@ -16,14 +17,29 @@ header {
     background-color: #ff69b4; /* Hot pink */
     color: #ffffe0; /* Light yellow */
     padding: 1em 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+main {
+    margin-top: 60px; /* Ensure main section starts after the header */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px; /* Ensure space for the button */
+    overflow-y: auto; /* Allow scrolling for the main section */
 }
 
 .center-content {
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative; /* Add this to position the button within the main section */
 }
 
 .center-content blockquote {
@@ -31,9 +47,46 @@ header {
     color: #8a2be2; /* Blue violet */
 }
 
+#all-quotes {
+    width: 100%; /* Ensure the quotes section takes full width */
+}
+
+#all-quotes p {
+    font-size: 1.2em;
+    color: #8a2be2; /* Blue violet */
+    margin: 10px 0;
+}
+
+#all-quotes cite {
+    display: block;
+    font-size: 0.8em;
+    color: #ff69b4; /* Hot pink */
+    margin-top: 5px;
+}
+
 .footer {
     text-align: center;
     padding: 1em 0;
     background-color: #ff69b4; /* Hot pink */
     color: #ffffe0; /* Light yellow */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+button#toggle-button {
+    background-color: #ff69b4; /* Hot pink */
+    color: #ffffe0; /* Light yellow */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 90px; /* Position above the footer */
+    right: 20px;
+}
+
+button#toggle-button:hover {
+    background-color: #ff1493; /* Deep pink */
 }
