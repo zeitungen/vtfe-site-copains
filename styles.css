@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
     margin: 0;
     background-color: #ffcccb; /* Light red background */
-    padding-top: 60px; /* Adjust this value based on the header height */
+    overflow: hidden; /* Prevent scrolling */
 }
 
 header {
@@ -17,21 +17,25 @@ header {
     background-color: #ff69b4; /* Hot pink */
     color: #ffffe0; /* Light yellow */
     padding: 1em 0;
-    position: fixed;
     top: 0;
+    height: 5em;
     width: 100%;
     z-index: 1000;
 }
 
+.footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #ff69b4; /* Hot pink */
+    color: #ffffe0; /* Light yellow */
+    width: 100%;
+    height: 3em;
+}
+
+
 main {
-    margin-top: 60px; /* Ensure main section starts after the header */
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 150px; /* Ensure space for the button */
-    overflow-y: auto; /* Allow scrolling for the main section */
+    width: 100%;
+    height: calc(100vh - 12em);
 }
 
 .center-content {
@@ -39,7 +43,8 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: relative; /* Add this to position the button within the main section */
+    position: relative; 
+    width: 100%;
 }
 
 .center-content blockquote {
@@ -48,7 +53,9 @@ main {
 }
 
 #all-quotes {
-    width: 100%; /* Ensure the quotes section takes full width */
+    width: 100vw; /* Ensure the quotes section takes full width of the viewport */
+    height: 100%; /* Ensure the quotes section takes full height of the main section */
+    overflow-y: auto; /* Allow scrolling */
 }
 
 #all-quotes p {
@@ -62,16 +69,6 @@ main {
     font-size: 0.8em;
     color: #ff69b4; /* Hot pink */
     margin-top: 5px;
-}
-
-.footer {
-    text-align: center;
-    padding: 1em 0;
-    background-color: #ff69b4; /* Hot pink */
-    color: #ffffe0; /* Light yellow */
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 button#toggle-button {

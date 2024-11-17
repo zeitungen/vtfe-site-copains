@@ -7,7 +7,6 @@ const quotes = [
     { text: "Je suis pas un pervers, je suis un artiste.", author: "Loïc" },
     { text: "Je suis pas un pervers, je suis un artiste.", author: "Loïc" },
     { text: "Je suis pas un pervers, je suis un artiste.", author: "Loïc" },
-    { text: "Je suis pas un pervers, je suis un artiste.", author: "Loïc" },
     { text: "Je suis pas un homme, je suis un artiste.", author: "Loïc" },
     { text: "Je suis pas un homme, je suis un artiste.", author: "Loïc" },
     { text: "Je suis pas un homme, je suis un artiste.", author: "Loïc" },
