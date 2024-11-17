@@ -1,18 +1,6 @@
 const quotes = [
-    // { text: "Ce n'est pas la biquette la plus vierge du troupeau.", author: "Loïc" },
-    // { text: "On a tous un peu de blond dans l'aile", author: "Elise" },
-
-    // { text: "C'est pas parce qu'on a rien à dire qu'il faut fermer sa gueule.", author: "Loïc" },
-    // { text: "Je suis pas un pervers, je suis un artiste.", author: "Loïc" },
-    // { text: "Je suis pas un pervers, je suis un artiste.", author: "Loïc" },
-    // { text: "Je suis pas un pervers, je suis un artiste.", author: "Loïc" },
-    // { text: "Je suis pas un pervers, je suis un artiste.", author: "Loïc" },
-    // { text: "Je suis pas un homme, je suis un artiste.", author: "Loïc" },
-    // { text: "Je suis pas un homme, je suis un artiste.", author: "Loïc" },
-    // { text: "Je suis pas un homme, je suis un artiste.", author: "Loïc" },
-    { text: "Je suis pas un schtroumpf, je suis un artiste.", author: "Loïc" },
-    { text: "Je suis pas un schtroumpf, je suis un artiste.", author: "Loïc" },
-    { text: "Je suis pas un schtroumpf, je suis un artiste.", author: "Loïc" },
+    { text: "Ce n'est pas la biquette la plus vierge du troupeau.", author: "Loïc" },
+    { text: "On a tous un peu de blond dans l'aile", author: "Elise" },
 ];
 
 
